@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candleaf Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-white opacity-85 shadow-md py-4 flex justify-between items-center fixed top-0 left-0 right-0 z-10">
+        <div class="max-w-6xl mx-auto w-full flex justify-between items-center ">
+            <div class="flex items-center space-x-2">
+                <img src="./assets/logo.svg" alt="" class="h-8">
+                <span class="text-xl font-bold">Candleaf</span>
+            </div>
+            <div class="flex items-center space-x-4 max-[800px]:hidden">
+                <select class="border rounded p-2">
+                    <option>Discovery</option>
+                    <option>About</option>
+                    <option>Contact us</option>
+                </select>
+                <ul class="flex gap-6">
+                    <li>
+                        <a class="text-gray-800 hover:text-blue-600" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="text-gray-800 hover:text-blue-600" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center space-x-4">
+                <img src="./assets/Profile.svg" alt="" class="h-6">
+                <img src="./assets/Cart.svg" alt="" class="h-6">
+            </div>
+            
+        </div>
+    </nav>
+
+    <section class="relative bg-cover bg-center" style="background-image: url('./assets/bg-image.png'); height: 100vh;">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center space-y-4 ">
+            <div class="max-w-6xl mx-auto border bg-white opacity-80 rounded-lg p-6 max-[600px]:mt-16">
+                <img class="block mx-auto" src="./assets/logo.svg" alt="">
+                <h1 class="text-black text-4xl font-bold mb-6">The nature candle</h1>
+                <p class="text-black text-lg mb-4">All handmade with natural soy wax, Candleaf is a companion for all your pleasure moments.</p>
+                <button class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">Discover our collection</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-bold mb-2">Products</h2>
+            <p class="text-center text-2xl mb-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 1.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Spiced Mint</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 2.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Sweet Straweberry</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 3.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Cool Blueberries</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 4.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Juicy Lemon</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 2.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Product name</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 5.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Fragrant Cinnamon</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 1.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Summer Cherries</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+                <div class="bg-gray-100 rounded-lg text-center shadow-lg p-2">
+                    <img src="./assets/image 3.png" alt="" class="mx-auto mb-4">
+                    <div class="w-full bg-white rounded-lg">
+                        <h3 class="text-lg font-semibold">Clean Lavander</h3>
+                        <p class="text-green-500 font-bold">$9.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-4">
+                <h2 class="text-2xl font-bold">Clean and fragrant soy wax</h2>
+                <p class="text-green-400">Made for your home and for your wellness.</p>
+                <ul class="list-none ml-6">
+                    <li>&#10004; Eco-sustainable: All recyclable materials, 0% CO2 emissions</li>
+                    <li>&#10004; Hypoallergenic: 100% natural, human-friendly ingredients</li>
+                    <li>&#10004; Handmade: All candles are crafted with love.</li>
+                    <li>&#10004; Long burning: No more waste. Created to last long.</li>
+                </ul>
+                <button class="w-[280px] bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">Learn more</button>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+                <img src="./assets/hero.png" alt="" class="h-full w-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-green-50 py-16">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-bold mb-2">Testimonials</h2>
+            <p class="text-center text-gray-600 mb-8">Some quotes from our happy customers</p>
+            <div class="grid grid-cols-1 md:grid-cols-3  justify-items-center gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/ava1.svg" alt="" class="mx-auto mb-4 w-24 h-24 rounded-full">
+                    <div class="flex justify-center mt-4">
+                        <span class="text-green-500 text-2xl">&#10030;&#10030;&#10030;&#10030;&#10030;</span>
+                    </div>
+                    <p class="text-lg font-semibold mb-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sapiente!"</p>
+                    <p class="text-green-500">Luisa</p>
+                </div>
+    
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/ava2.svg" alt="" class="mx-auto mb-4 w-24 h-24 rounded-full">
+                    <div class="flex justify-center mt-4">
+                        <span class="text-green-500 text-2xl">&#10030;&#10030;&#10030;&#10030;&#10030;</span>
+                    </div>
+                    <p class="text-lg font-semibold mb-2">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, earum."</p>
+                    <p class="text-green-500">Edoardo</p>
+                </div>
+    
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/ava3.svg" alt="" class="mx-auto mb-4 w-24 h-24 rounded-full">
+                    <div class="flex justify-center mt-4">
+                        <span class="text-green-500 text-2xl">&#10030;&#10030;&#10030;&#10030;&#10030;</span>
+                    </div>
+                    <p class="text-lg font-semibold mb-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, fuga."</p>
+                    <p class="text-green-500">Mart</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="bg-white py-16">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-bold mb-2">Popular</h2>
+            <p class="text-center text-gray-600 mb-8">Our top selling product that you may like</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/image 1.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold">Spiced Mint</h3>
+                    <p class="text-green-500 font-bold">$9.99</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/image 2.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold">Sweet Strawberry</h3>
+                    <p class="text-green-500 font-bold">$9.99</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/image 3.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold">Cool Blueberries</h3>
+                    <p class="text-green-500 font-bold">$9.99</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md text-center">
+                    <img src="./assets/image 4.png" alt="" class="mx-auto mb-4">
+                    <h3 class="text-lg font-semibold">Juicy Lemon</h3>
+                    <p class="text-green-500 font-bold">$9.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto py-8 px-2">
+            <div class=" mb-[50px]">
+                <div class="flex items-center gap-4">
+                    <img src="./assets/logoFooter.svg" alt="" class="w-12 mb-2">
+                    <strong>CANDLEAF</strong>
+                </div>
+                <p class="w-[300px]">Your natural candle made for your home and for your wellness.</p>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-6 md:grid-cols-4 max-[775px]:grid-cols-3 max-[639px]:grid-cols-2 max-[400px]:text-center max-[400px]:grid-cols-1">
+                <div>
+                    <h4 class="font-semibold mb-2">Discovery</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">New season</a></li>
+                        <li><a href="#" class="hover:underline">Most searched</a></li>
+                        <li><a href="#" class="hover:underline">Most selled</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">About</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Help</a></li>
+                        <li><a href="#" class="hover:underline">Shipping</a></li>
+                        <li><a href="#" class="hover:underline">Affiliate</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">Info</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Contact us</a></li>
+                        <li><a href="#" class="hover:underline">Privacy Policies</a></li>
+                        <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">About</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Help</a></li>
+                        <li><a href="#" class="hover:underline">Shipping</a></li>
+                        <li><a href="#" class="hover:underline">Affiliate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
