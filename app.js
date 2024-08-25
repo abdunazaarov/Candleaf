@@ -82,3 +82,37 @@
 //         console.log(yigindi, kopaytma, Math.pow(a, 2), Math.pow(b, 2))
 // }
 // ---------------------------------------------------------------------------------------------------------
+
+// Qo'shimcha
+
+// 1 - Masala
+
+// Qanaqadir kun yil nimadirlarni hisoblaydi
+
+// {
+//     const ism = prompt("Ismingizni kiriting:")
+//     const yosh = +prompt("yoshingizni kiriting:")
+
+//     let yil = 2024 - yosh
+//     let oy = yosh * 12
+//     let hafta = ((yosh * 365) / 7).toFixed(0)
+//     let kun = yosh * 365
+//     let soat = kun * 24
+//     let daqiqa = soat * 60
+//     let soniya = daqiqa * 60
+    
+//     const result = `${ism}, siz ${yil} yilda tug'ilgansiz. Va siz ${oy} oy, ${hafta}, ${kun}, ${soat} soat, ${daqiqa} daqiqa va ${soniya} soniya yashagansiz.`
+//     alert(result)
+// }
+
+// 2 - Masala
+
+// 100 gacha bolgan toq sonlarni chiqaradi
+
+// {
+//     for(i = 0; i < 100; i++){
+//         if(i % 2 != 0){
+//             console.log(i)
+//         }
+//     }
+// }
